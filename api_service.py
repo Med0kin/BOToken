@@ -1,8 +1,9 @@
+from numpy import intp
 import requests
 
 class APIService():
     def __init__(self) -> None:
-        self._api_key = "RGAPI-348f62e8-b766-48ec-9cee-81ae75699047"
+        self._api_key = input("Enter your API key: ")
         self._api_champions_url = "http://ddragon.leagueoflegends.com/cdn/13.14.1/data/en_US/champion.json"
         self._api_rotation_url = "https://eun1.api.riotgames.com/lol/platform/v3/champion-rotations"
 
