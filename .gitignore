@@ -1,0 +1,3 @@
+# don't upload bytecode
+__pycache__/
+champions.txt
